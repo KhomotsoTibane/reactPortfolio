@@ -1,9 +1,8 @@
 import WeatherApp from "../../assets/weather.png"
 import FitnessApp from "../../assets/fitness.png"
 import TodoListApp from "../../assets/todolist.png"
-import StudyCardsApp from "../../assets/studycards.png"
 import RealEstateApp from "../../assets/realestate.png"
-import WordGuessApp from "../../assets/wordguess.png"
+import WordGuessApp from "../../assets/wordGuess.png"
 import ShoppingCartApp from "../../assets/cart.png"
 
 const data = [
