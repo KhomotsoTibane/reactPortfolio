@@ -43,7 +43,7 @@ const experience = () => {
         </div>
         <div className="app__experience-right">
             <h3>Technologies</h3>
-            <canvas width="400" height="400" id="tagcanvas" className='app__experience-tagCanvas'>
+            <canvas width="400px" height="400px" id="tagcanvas" className='app__experience-tagCanvas'>
               <ul id="tags">
                 <li className="app__text-light"><p>HTML</p></li>
                 <li className="app__text-light"><a href="#" target="_blank">CSS</a></li>
