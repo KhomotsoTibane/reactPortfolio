@@ -4,6 +4,7 @@ import TodoListApp from "../../assets/todolist.png"
 import RealEstateApp from "../../assets/realestate.png"
 import WordGuessApp from "../../assets/wordGuess.png"
 import ShoppingCartApp from "../../assets/cart.png"
+import DozeFitnessWeb from "../../assets/dozefitness.png"
 
 const data = [
     {
@@ -54,6 +55,14 @@ const data = [
     demo:"https://starlit-croissant-325d41.netlify.app/",
     tags:"React, All"
     },
+    {
+    id:7,
+    image:DozeFitnessWeb,
+    title:"Doze Fitness Club",
+    github:"https://github.com/KhomotsoTibane/DozeFitnessClub",
+    demo:"https://neon-gumdrop-7d9916.netlify.app",
+    tags:"React, All"
+    }
 ]
 
 export default data

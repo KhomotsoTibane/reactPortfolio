@@ -9,9 +9,9 @@ const experience = () => {
     const TagCanvas = window.TagCanvas;
     console.log(TagCanvas);
     const tagCanvasOptions = {
-      textColour: '#08FDD8',
+      textColour: '#4db5ff',
       outlineThickness: 0.5,
-      outlineColour: '#4db5ff',
+      outlineColour: '',
       maxSpeed: 0.06,
       freezeActive: true,
       shuffleTags: true,
@@ -39,7 +39,7 @@ const experience = () => {
       <h2>My Experience</h2> 
       <div className="app__experience-container app__container">
         <div className="app__experience-left">
-          <p>Over the past years I have made the effort to try and refine my knowledge in the languages already I know, to learn new languages and technologies within the tech environment. Here is a list of the languages and concepts that I have covered on my journey thus far:
+          <p>Over the past years I have been working on my knowledge in the languages already I know, to learn new languages and technologies within the tech environment. Here is a list of the languages and concepts that I have covered on my journey thus far:
           </p>
         </div>
         <div className="app__experience-right">

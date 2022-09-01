@@ -25,6 +25,7 @@
 
  .app__experience-left p{
     text-align: center;
+    font-size: large;
   }
   
 
@@ -46,7 +47,6 @@
 @media screen and (max-width:600px){
     
     .app__experience-container{
-        
         gap:1rem;
     }
 
@@ -54,6 +54,11 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+
+    .app__experience-left p{
+        font-size: normal;
+    }
+    
     .app__experience-tagCanvas{
         width: 300px;
         height: 300px;
