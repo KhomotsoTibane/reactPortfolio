@@ -29,6 +29,15 @@ header{
     bottom: 3rem;
 }
 
+.app__socials > a > svg{
+width: 1.5rem;
+height: 1.5rem;
+}
+
+.app__socials > a >:hover{
+    transform: scale(1.5);
+}
+
 .app__socials::after{
    content:"";
    width:1px;
