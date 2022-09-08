@@ -1,15 +1,19 @@
 import React,{useState} from "react"
 import {FaLinkedin} from "react-icons/fa"
+import {AiOutlineMail} from "react-icons/ai"
 import "./contact.css"
 import { useForm, ValidationError } from "@formspree/react";
 
 const contact = () => {
 
   const [state, handleSubmit] = useForm("mknyqrrk");
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   
   if (state.succeeded) {
-      setIsFormSubmitted(true)
+      return <div>
+      <h3 className="head-text">
+        Thank you for getting in touch!
+      </h3>
+    </div>
   }
 
   return (
@@ -26,9 +30,12 @@ const contact = () => {
                 <h5><a href="http://linkedin.com/in/khomotso-tibane-753b0186" target="_blank">Khomotso Tibane</a></h5>  
               </article>
 
+              <article className="app__contact-option">
+                <AiOutlineMail className="app__contact-option-icon"/>
+                <h4>Khomotso13@gmail.com</h4>
+              </article>
+
             </div>
-  
-            {!isFormSubmitted ? (
               <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Your Name" className="input" required/>
                 <input id="email" type="email" name="email" placeholder="Your Email" required/>
@@ -36,15 +43,7 @@ const contact = () => {
                 <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
                 <button type="submit" disabled={state.submitting} className="app__btn app__btn-primary"> Send Message</button>
-              </form>)
-            :
-              (
-              <div>
-                <h3 className="head-text">
-                  Thank you for getting in touch!
-                </h3>
-              </div>
-            )}
+              </form>
         </div>
       </div>
     </section>

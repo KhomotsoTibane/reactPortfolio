@@ -29,22 +29,19 @@ footer a{
     display: flex;
     justify-content: center;
     gap:1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
-.app__footer-socials a{
-    background: var(--bg-color);
+.app__footer-socials > a >svg{
     display: flex;
     color: var(--white-color);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    border: 1px solid transparent;
+    font-size: 1.5rem;   
 }
 
-.app__footer-socials a:hover{
+.app__footer-socials >a>svg:hover{
     background: transparent;
     color: var(--bg-color);
-    border-color: var(--bg-color)
+    border-color: var(--bg-color);
 }
 
 .app__footer-copyright{

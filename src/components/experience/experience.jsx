@@ -7,7 +7,6 @@ const experience = () => {
   useEffect(() => {
     console.log('Loading TagCanvas...');
     const TagCanvas = window.TagCanvas;
-    console.log(TagCanvas);
     const tagCanvasOptions = {
       textColour: '#4db5ff',
       outlineThickness: 0.5,

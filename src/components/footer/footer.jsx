@@ -14,7 +14,7 @@ const footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-       <div className="app_footer-socials">
+       <div className="app__footer-socials">
         <a href="https://www.linkedin.com/in/khomotso-tibane-753b0186/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
         <a href="https://github.com/KhomotsoTibane" target="_blank" rel="noreferrer"><BsGithub/></a>  
        </div>
