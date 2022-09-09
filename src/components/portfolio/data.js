@@ -5,6 +5,7 @@ import RealEstateApp from "../../assets/realestate.png"
 import WordGuessApp from "../../assets/wordGuess.png"
 import ShoppingCartApp from "../../assets/cart.png"
 import DozeFitnessWeb from "../../assets/dozefitness.png"
+import StudyCards from "../../assets/studycards.png"
 
 const data = [{
         id: 1,
@@ -32,7 +33,7 @@ const data = [{
     },
     {
         id: 4,
-        image: RealEstateApp,
+        image: StudyCards,
         title: "Study Cards",
         github: "https://github.com/KhomotsoTibane/StudyCards",
         demo: "",
