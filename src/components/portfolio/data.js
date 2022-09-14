@@ -7,6 +7,7 @@ import ShoppingCartApp from "../../assets/cart.png"
 import DozeFitnessWeb from "../../assets/dozefitness.png"
 import StudyCards from "../../assets/studycards.png"
 import DozePizzaApp from "../../assets/dozepizza.png"
+import CardComponent from "../../assets/cardcomponent.jpg"
 
 const data = [{
         id: 1,
@@ -79,6 +80,14 @@ const data = [{
         github: "https://github.com/KhomotsoTibane/WeatherApp",
         demo: "https://kaleidoscopic-pavlova-43a22b.netlify.app/",
         tags: "React, All"
+    },
+    {
+        id: 11,
+        image: CardComponent,
+        title: "Card Component Frontend Mentor",
+        github: "https://github.com/KhomotsoTibane/FrontendMentor-1",
+        demo: "https://khomotsotibane.github.io/FrontendMentor-1/",
+        tags: "All"
     }
 ]
 
