@@ -6,6 +6,7 @@ import WordGuessApp from "../../assets/wordGuess.png"
 import ShoppingCartApp from "../../assets/cart.png"
 import DozeFitnessWeb from "../../assets/dozefitness.png"
 import StudyCards from "../../assets/studycards.png"
+import DozePizzaApp from "../../assets/dozepizza.png"
 
 const data = [{
         id: 1,
@@ -25,6 +26,14 @@ const data = [{
     },
     {
         id: 3,
+        image: DozePizzaApp,
+        title: "Doze Pizza",
+        github: "https://github.com/KhomotsoTibane/dozePizza",
+        demo: "https://dozepizza.vercel.app/",
+        tags: "Next Js, All"
+    },
+    {
+        id: 4,
         image: WordGuessApp,
         title: "Word Guess",
         github: "https://github.com/KhomotsoTibane/reactWordle",
@@ -32,7 +41,7 @@ const data = [{
         tags: "React, All"
     },
     {
-        id: 4,
+        id: 5,
         image: StudyCards,
         title: "Study Cards",
         github: "https://github.com/KhomotsoTibane/StudyCards",
@@ -40,7 +49,7 @@ const data = [{
         tags: "React, All"
     },
     {
-        id: 5,
+        id: 6,
         image: FitnessApp,
         title: "Fitness App",
         github: "https://github.com/KhomotsoTibane/FitnessApp",
@@ -48,7 +57,7 @@ const data = [{
         tags: "React, All"
     },
     {
-        id: 6,
+        id: 7,
         image: ShoppingCartApp,
         title: "Shopping Cart",
         github: "https://github.com/KhomotsoTibane/PicnicShop",
@@ -56,7 +65,7 @@ const data = [{
         tags: "Typescript, All"
     },
     {
-        id: 7,
+        id: 8,
         image: TodoListApp,
         title: "Todo List",
         github: "https://github.com/KhomotsoTibane/ToDoList",
@@ -64,7 +73,7 @@ const data = [{
         tags: "React, All"
     },
     {
-        id: 8,
+        id: 9,
         image: WeatherApp,
         title: "Weather App",
         github: "https://github.com/KhomotsoTibane/WeatherApp",
@@ -74,3 +83,4 @@ const data = [{
 ]
 
 export default data
+
