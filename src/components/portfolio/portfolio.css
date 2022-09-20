@@ -69,7 +69,7 @@
   }
 
   .item-active {
-    background-color: var(--primary-color-variant);
+    background-color: var(--primary-color);
     color: #fff;
   }
 

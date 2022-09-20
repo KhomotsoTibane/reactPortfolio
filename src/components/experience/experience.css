@@ -16,18 +16,19 @@
     border-color: var(--primary-color-variant);
  }
 
- .app__experience-container > div h3{
-    color: var(--primary-color-variant);
+ .app__experience-container > div > h3{
+    color: var(--primary-color);
     text-align: center;
-    margin-bottom: 2rem;
  }
 
 
  .app__experience-left p{
-    text-align: center;
+    display: flex;
+    align-items: center;
     font-size: large;
   }
   
+
 
 /*Media queries medium devices*/
 @media screen and (max-width:1024px){

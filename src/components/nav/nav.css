@@ -1,8 +1,8 @@
-nav{
-    background: rgba(0,0,0,0.3);
+nav {
+    background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0 1.7rem .3rem;
     z-index: 2;
     position: fixed;
     left: 50%;
@@ -14,23 +14,32 @@ nav{
     backdrop-filter: blur(15px);
 }
 
-nav a{
+nav>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
     background: transparent;
     padding: 0.8rem;
     border-radius: 50%;
     display: flex;
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 1.5rem;
 }
 
-
-nav a:hover{
-    background: rgba(0,0,0,0.3);
+nav span {
+    font-size: .75rem;
 }
 
-nav a.active{
+nav a:hover {
     background: var(--primary-color);
-    color:var(--bg-color);
-   
 }
 
+nav a.active {
+    background: var(--primary-color);
+    color: var(--bg-color);
+
+}
