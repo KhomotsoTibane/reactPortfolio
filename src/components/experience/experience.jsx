@@ -52,7 +52,6 @@ const experience = () => {
               <li className="app__text-light"><a href="#" target="_blank">C#</a></li>
               <li className="app__text-light"><a href="#" target="_blank">Mongo db</a></li>
               <li className="app__text-light"><a href="#" target="_blank">Python</a></li>
-              <li className="app__text-light"><a href="#" target="_blank">Scss</a></li>
               <li className="app__text-light"><a href="#" target="_blank">Bootstrap</a></li>
               <li className="app__text-light"><a href="#" target="_blank">Node Js</a></li>
               <li className="app__text-light"><a href="#" target="_blank">JQuery</a></li>
