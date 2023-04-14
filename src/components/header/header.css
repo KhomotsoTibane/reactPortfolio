@@ -47,9 +47,9 @@ height: 1.5rem;
 
 /*********************Socials************************/
 .app__header-me{
-    /* background:  linear-gradient( #95522E, transparent); */
+    background:  linear-gradient( #a7968d, transparent);
     /* background:  linear-gradient(    #09081F, transparent); */
-    background:  linear-gradient(   #673929, transparent);
+    /* background:  linear-gradient(   #673929, transparent); */
     width: 22rem;
     height: 25rem;
     position: absolute;
@@ -57,6 +57,11 @@ height: 1.5rem;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
+}
+
+.app__header-me > img{
+    padding-left: 2.5rem;
+    transform: rotate(3deg);
 }
 
 .app__header-scrolldown{
